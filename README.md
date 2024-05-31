@@ -41,7 +41,7 @@ A step-by-step series of examples that tell you how to get a development environ
 2. Install NPM packages:
    ```bash
    npm install
-3. ## Configuration
+3. Configuration
 
 To configure the environment for your project, you need to set up several environment variables. Follow these steps to correctly configure your development environment:
 
