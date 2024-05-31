@@ -41,7 +41,9 @@ A step-by-step series of examples that tell you how to get a development environ
 2. Install NPM packages:
    ```bash
    npm install
-3. To configure the environment for your project, you need to set up several environment variables. Follow these steps to correctly configure your development environment:
+3. ## Configuration
+
+To configure the environment for your project, you need to set up several environment variables. Follow these steps to correctly configure your development environment:
 
 1. **Create a `.env` file** in the root directory of your project.
 
@@ -58,6 +60,9 @@ A step-by-step series of examples that tell you how to get a development environ
 These keys can be obtained as follows:
 - **TMDB API key**: Register an account on [The Movie Database (TMDB)](https://www.themoviedb.org/account/signup), navigate to your account settings, and request an API key.
 - **Firebase keys**: Create a Firebase project in the [Firebase console](https://console.firebase.google.com/), set up your application according to Firebase's guidelines, and find your project's specific settings under the project settings.
+
+Setting these variables correctly will allow your application to communicate with external services securely and effectively.
+
 4. Run the application:
    ```bash
    npm run dev
