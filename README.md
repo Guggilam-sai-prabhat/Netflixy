@@ -41,15 +41,23 @@ A step-by-step series of examples that tell you how to get a development environ
 2. Install NPM packages:
    ```bash
    npm install
-3. Create a .env file in the root directory and add your TMDB API key and Firebase configuration :
-   VITE_TMDB_KEY
-   VITE_FIREBASE_API_KEY
-   VITE_FIREBASE_AUTH_DOMAIN
-   VITE_FIREBASE_PROJECT_ID
-   VITE_FIREBASE_STORAGE_BUCKET
-   VITE_FIREBASE_MESSAGING_SENDER_ID
-   VITE_FIREBASE_APP_ID
+3. To configure the environment for your project, you need to set up several environment variables. Follow these steps to correctly configure your development environment:
 
+1. **Create a `.env` file** in the root directory of your project.
+
+2. **Add the following environment variables** to the `.env` file with your specific values:
+
+   - `VITE_TMDB_KEY`: Your TMDB API key, used for fetching movie data.
+   - `VITE_FIREBASE_API_KEY`: Your Firebase API key.
+   - `VITE_FIREBASE_AUTH_DOMAIN`: Your Firebase authentication domain.
+   - `VITE_FIREBASE_PROJECT_ID`: Your Firebase project ID.
+   - `VITE_FIREBASE_STORAGE_BUCKET`: Your Firebase storage bucket URL.
+   - `VITE_FIREBASE_MESSAGING_SENDER_ID`: Your Firebase messaging sender ID.
+   - `VITE_FIREBASE_APP_ID`: Your Firebase app ID.
+
+These keys can be obtained as follows:
+- **TMDB API key**: Register an account on [The Movie Database (TMDB)](https://www.themoviedb.org/account/signup), navigate to your account settings, and request an API key.
+- **Firebase keys**: Create a Firebase project in the [Firebase console](https://console.firebase.google.com/), set up your application according to Firebase's guidelines, and find your project's specific settings under the project settings.
 4. Run the application:
    ```bash
    npm run dev
