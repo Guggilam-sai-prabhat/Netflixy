@@ -1,6 +1,6 @@
-# Netflix Clone Application
+# Netflixy
 
-This project is a simplified front-end clone of Netflix. It's built with React and uses several modern web technologies to provide a dynamic and responsive user interface, mimicking the core functionalities of Netflix.
+This project is inspired by the core functionalities and interface of Netflix. Built with React and incorporating various modern web technologies, it offers a dynamic and responsive user interface. While not a direct clone, this application captures the essence of Netflix's user experience and adapts it into a simplified front-end model.
 
 ## Features
 
