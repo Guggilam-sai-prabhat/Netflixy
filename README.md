@@ -36,8 +36,8 @@ A step-by-step series of examples that tell you how to get a development environ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/netflix-clone.git
-   cd netflix-clone
+   git clone repository link
+   cd Netflixy
 2. Install NPM packages:
    ```bash
    npm install
