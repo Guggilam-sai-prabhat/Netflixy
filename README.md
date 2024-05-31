@@ -67,4 +67,5 @@ Setting these variables correctly will allow your application to communicate wit
    ```bash
    npm run dev
 ## Deployment
-To deploy this project on a live system, consider using Vercel, Netlify, or Firebase Hosting, as they provide seamless integration for projects built with React. I personally deplyed in Firebase
+To deploy this project on a live system, consider using platforms such as Vercel, Netlify, or Firebase Hosting, as they offer seamless integration for projects built with React. I personally deployed it on Firebase.
+
