@@ -1,4 +1,4 @@
-# Netflixy
+# Moviexy
 
 This project is inspired by the core functionalities and interface of Netflix. Built with React and incorporating various modern web technologies, it offers a dynamic and responsive user interface. While not a direct clone, this application captures the essence of Netflix's user experience and adapts it into a simplified front-end model.
 
